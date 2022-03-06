@@ -1,0 +1,24 @@
+Knight Battler can be run by running GameRunner.java.
+
+Throughout the game, there are a number of static instructional menu screens with various options listed.
+ - Upon starting the game, there is a Start Menu where you can either press 'Q' to quit and close the program, or any other key to start.
+ - The next page is the instructions screen which lists the controls for movement during the game. Press any key to continue past this screen and start the gameplay.
+ - Once in the game, press 'W' to move up, 'S' to move down, 'A' to move left, 'D' to move right, and 'SPACEBAR' to pause.
+ - If paused, press 'Q' to quit, followed by 'Y' to confirm and return to the Start Menu. In this screen you can also press 'N' to not confirm and return to the pause screen. Press any other key in the pause screen to unpause.
+
+When moving throughout the map, intersect with an enemy to start a duel.
+
+Once dueling an enemy, choose from the listed actions to attack the enemy and inflict damage or restore your energy. 
+The enemy will return attacks or restore their energy automatically. 
+When one player's health goes below 0, the duel is over: 
+- If you lose the duel, you will see the Game Over screen where you can press any key to return to the Start Menu and play again.
+- If you defeat the enemy, the enemy will be removed from the screen and you can continue on your quest. Also, the enemy may drop XP for you to pickup.
+
+Duels can be fought between any type of Person (currently Hero and Enemy). Hero indicates a human player who must choose an action. Enemy indicates a non-human player so the actions are automatically processed.
+Duels can be Hero v Hero, Enemy v Enemy, or in the case of KnightBattler Hero v Enemy.
+As you duel, the action buttons for your Hero will appear or disappear if they are available. For example, if your energy level is too low for attack A, attack A will not appear. If your energy level is full, restore energy will not appear.
+When it is an Enemy's turn, your buttons are disabled so you cannot continue attacking.
+
+
+As you move through the levels, find the exit in order to move on to the next level. There are four levels in total and in the final level you need to find the treasure chest in order to win.
+Once you have won, you will see the Win screen where you can press any key to return to the Start Menu and play again.

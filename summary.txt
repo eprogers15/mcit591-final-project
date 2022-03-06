@@ -1,0 +1,21 @@
+Knight Battler
+
+Knight Battler is an overworld/turn-based battle game in which you control the hero, Knight Man, and battle enemies through four levels.
+Knight Man can be moved throughout the on-screen map using the W, S, A, and D keyboard keys. Each level has an exit for you to find to continue on to the next. 
+When Knight Man intersects with an enemy, a turn-based battle ensues. Use your mouse to select Knight Man's attack and deplete the enemy's health before it defeats you.
+Reach Level 4 and locate the treasure chest to win the game.
+
+Emmett Rogers - Gameplay logic, static menu screens, person movement and overworld animation, including classes: Animation, Gameplay, GameRunner, Map, MapObject, and any movement features in Person class.
+Eric Shapiro - Battle animation, battle mechanics, and JUnit tests, including classes: Attack, Duel, DuelIllustrator, DuelManager, DuelScene, DuelTester, Turn, and any attack/restore features in Person class.
+
+The following images and maps are courtesy of the wonderful artists linked here:
+Knight, Troll, Wolf, Golem - https://superdark.itch.io/enchanted-forest-characters
+Goblin - https://o-lobster.itch.io/simple-dungeon-crawler-16x16-pixel-pack
+Level 1 background - https://www.pinterest.com/pin/550354016948633087/
+Level 2 background - https://opengameart.org/content/basic-map-32x32-by-silver-iv
+Level 3 background - https://opengameart.org/content/8x8px-8-colors-34-dungeon-tileset-template
+Level 4 background - https://coderwall.com/p/ptca8q/getrandomgame-sdl-opengl-tile-engine-game-in-c
+
+PennDraw created by Robert Sedgewick, Kevin Wayne, Benedict Brown as seen in Introduction to Programming in Java: An Interdisciplinary Approach.
+
+https://github.com/UPenn-CIT599/final-project-team-38.git
